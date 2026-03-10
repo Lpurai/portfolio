@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @layer base{
   body{
-    @apply bg-gray-100 text-primary m-0 p-0 text-[min(10vw,20px)];
+    @apply bg-gray-100 text-primary m-0 p-0 md:text-xl;
     
   }
   
@@ -41,9 +41,16 @@
     @apply bg-blue-600 text-white p-2 w-30  rounded-lg hover:bg-blue-700 transition cursor-pointer
   }
   .img-icon{
-    @apply w-10 h-10 rounded-full cursor-pointer
+    @apply w-5 h-5  md:w-10 md:h-10 rounded-full cursor-pointer
   }
   .img-others{
     @apply w-20 h-20 rounded-full md:w-30 md:h-30;
   }
+}
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+.no-scrollbar{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }

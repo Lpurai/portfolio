@@ -6,12 +6,12 @@ import instagram from '../assets/instagram.jpeg'
 const Contact = () => {
   return (
     <>
-    <div className="p-3 mt-16">
+    <div className="p-3 mt-13">
       <h2>Let's Work Together.</h2>
      <p>Have a project idea,collaboration opportunity,or just want to say hello? I am always open to discussing new ideas,creative projects,and meaningful partnerships.</p>
      </div>
-    <div className="flex-col space-y-5 flex items-center justify-center ">
-      <div className="bg-white border border-light-blue rounded-xl shadow-m p-4 flex flex-col space-y-2 w-full  md:md:w-3/8">
+    <div className=" m-3 md:m-10 ">
+      <div className="bg-white border  border-light-blue rounded-xl shadow-m p-3 flex flex-col space-y-2 w-full  lg:w-3/8">
       <label>Please fill the form below:</label>
       <input type="text" placeholder="Enter Your name" />
       <input type="email" placeholder="Email" />

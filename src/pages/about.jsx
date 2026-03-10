@@ -38,7 +38,7 @@ const About = () => {
           <li>UI/UX Design: Building clean, responsive interfaces with attention to accessibility and user experience</li>
         </ul>
         <p>I take pride in writing maintainable, modular code and continuously improving performance and scalability. I enjoy turning complex problems into intuitive and elegant solutions.</p>
-       <div className='flex flex-row space-x-4  md:space-x-6 mb-20 m-4' >
+       <div className='flex flex-col md:flex-row space-x-4  md:space-x-6 mb-20 m-4' >
         <h2>Tech Stacks:</h2>
         <img src={js} alt="js-icon" className='img-others ' />
         <img src={reactLogo} alt="react-icon" className='img-others' />

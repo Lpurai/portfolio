@@ -10,7 +10,7 @@ const[open,setOpen]=useState(false);
 
   return(
   <>
-  <div id="sidebar-div" className={` bg-primary text-background ${open?"w-66":"w:20"} duration-300 p-5 pt-10  flex flex-col space-y-8 fixed h-screen top-16 left-0`}>
+  <div id="sidebar-div" className={` bg-primary text-background ${open?"md:w-66 w-50":" w-18 md:w:20"} duration-300 p-5 pt-10  flex flex-col space-y-8 fixed h-screen  mt-12 md:top-16 left-0`}>
    
     <Menu size={28} className="cursor-pointer  " onClick={()=>setOpen(!open)}/>
   <h1 className={`text-xl font-bold  transition-all ${!open && "scale-0"}`}>

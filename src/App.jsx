@@ -9,9 +9,10 @@ import tailwind from './assets/tailwind.png';
 function App() {
   return (
 <>
-<nav className="flex flex-row justify-between bg-background text-primary h-16 p-3 rounded-md shadow-lg w-full font-extrabold fixed top-0 right-0">
-         <div className='flex flex-row mr-1 md:mr-5 sm:flex-row  space-x-5 ' ><img src={tailwind} alt="tailwind-icon" className="img-icon" />
-           <img src={reactLogo} alt="react-logo"/>
+<nav className="flex flex-row justify-between bg-background text-primary h-12 md:h-16 p-3 rounded-md shadow-lg w-full font-extrabold fixed top-0 right-0">
+         <div className='flex flex-row mr-1 md:mr-5 sm:flex-row  space-x-5 ' >
+          <img src={tailwind} alt="tailwind-icon" className="img-icon" />
+           <img src={reactLogo} alt="react-logo" className="img-icon"/>
            <h2 className="hidden md:inline-block ">Portfolio</h2>
          </div>
          <div className='flex flex-row  space-x-5 justify-end mr-8'>
