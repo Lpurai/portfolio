@@ -12,7 +12,7 @@
     @apply text-[2rem]
   }
   h2{
-    @apply text-[1.5rem] font-extrabold
+    @apply  text-[1.2rem] md:text-[1.5rem] font-extrabold
   }
   input{
     @apply rounded-lg bg-blue-50 border border-blue-200 p-3 focus:outline-none focus:ring-2 focus:ring-blue-300;
@@ -35,7 +35,7 @@
     @apply w-full h-screen flex flex-col space-y-3 bg-background mt-1 shadow-xl rounded-lg p-4 text-primary md:w-full md:h-screen md:flex-row space-x-4;
   }
   .navbar{
-     @apply w-full p-3 flex flex-row space-x-5 justify-evenly bg-blue-500 text-white  h-16 fixed rounded-md shadow-md font-extrabold 
+     @apply  w-full p-2 md:p-3 flex flex-row space-x-5 justify-evenly bg-blue-500 text-white  h-11 md:h-16 fixed  shadow-md font-extrabold 
   }
   .btn{
     @apply bg-blue-600 text-white p-2 w-30  rounded-lg hover:bg-blue-700 transition cursor-pointer
@@ -44,7 +44,7 @@
     @apply w-5 h-5  md:w-10 md:h-10 rounded-full cursor-pointer
   }
   .img-others{
-    @apply w-20 h-20 rounded-full md:w-30 md:h-30;
+    @apply w-13 h-13 rounded-full md:w-30 md:h-30;
   }
 }
 .no-scrollbar::-webkit-scrollbar{

@@ -25,7 +25,7 @@ const Contact = () => {
         <label htmlFor="">Email:</label><a href="mailto:yourname@email.com?subject=Portfolio Inquiry" className='font-extralight underline'>lpurailekalantula19@gmail.com </a>
       </div>
         <div className=" flex flex-row space-x-2 md:flex flex:row md:space-x-6">
-          <h2>Social Media accounts:</h2>
+          <h2 >Social Media accounts:</h2>
           <div><a href="https://linkedin.com/in/LpuraiLekalantula" target='_blank'><img src={linkedn} alt="linkedn-icon" className='img-icon'/></a> </div>
           <div><a href="https://github.com/lpurai" target='_blank'><img src={github} alt="github-icon" className='img-icon' /> </a></div>
           <div><a href="https://instagram.com/codemaestro_25" target='_blank'><img src={instagram} alt="instagram-icon" className='img-icon' /></a></div>
