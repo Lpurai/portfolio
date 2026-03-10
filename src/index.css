@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@layer base{
+  body{
+    @apply bg-gray-100 text-primary m-0 p-0 text-[min(10vw,20px)];
+    
+  }
+  
+  h1{
+    @apply text-3xl font-extrabold 
+  }
+  h3{
+    @apply text-[2rem]
+  }
+  h2{
+    @apply text-[1.5rem] font-extrabold
+  }
+  input{
+    @apply rounded-lg bg-blue-50 border border-blue-200 p-3 focus:outline-none focus:ring-2 focus:ring-blue-300;
+  }
+}
+@theme{
+  --color-primary:oklch(37.9% 0.146 265.522);
+  --color-secondary: oklch(55.4% 0.046 257.417);
+  --color-accent: oklch(91.7% 0.08 205.041);
+  --color-background:oklch(96.7% 0.003 264.542);
+  --color-darkMode:oklch(27.8% 0.033 256.848);
+  --color-light-blue:oklch(88.2% 0.059 254.128);
+}
+@layer components{
+  .card-row{
+    @apply w-full h-screen flex flex-col space-y-3 bg-background mt-1 shadow-xl rounded-lg p-4 text-primary md:w-full md:h-screen
+
+  }
+  .card-col{
+    @apply w-full h-screen flex flex-col space-y-3 bg-background mt-1 shadow-xl rounded-lg p-4 text-primary md:w-full md:h-screen md:flex-row space-x-4;
+  }
+  .navbar{
+     @apply w-full p-3 flex flex-row space-x-5 justify-evenly bg-blue-500 text-white  h-16 fixed rounded-md shadow-md font-extrabold 
+  }
+  .btn{
+    @apply bg-blue-600 text-white p-2 w-30  rounded-lg hover:bg-blue-700 transition cursor-pointer
+  }
+  .img-icon{
+    @apply w-10 h-10 rounded-full cursor-pointer
+  }
+  .img-others{
+    @apply w-20 h-20 rounded-full md:w-30 md:h-30;
+  }
+}
