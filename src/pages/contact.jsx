@@ -24,7 +24,7 @@ const Contact = () => {
     </div>
      
     </div>
-    <div className="flex flex-col space-y-3 absolute bottom-10 left-10 md:50">
+    <div className="flex flex-col space-y-3 absolute bottom-3 left-10 md:50">
       <div>
         <label htmlFor="">Email:</label><a href="mailto:yourname@email.com?subject=Portfolio Inquiry" className='font-extralight underline'>lpurailekalantula19@gmail.com </a>
       </div>
