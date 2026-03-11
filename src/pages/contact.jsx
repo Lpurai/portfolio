@@ -35,7 +35,7 @@ const Contact = () => {
           <div><a href="https://instagram.com/codemaestro_25" target='_blank'><img src={instagram} alt="instagram-icon" className='img-icon' /></a></div>
           <div><a href="https://x.com/lpurai6624" target='_blank'><img src={twitter} alt="twitter-icon" className='img-icon'/></a></div>
         </div>
-        <div className='m-10'>
+        <div className='m-5'>
        <button className="btn flex w-30 p-3"> <Link to="/projects"> Projects <ArrowRight className='inline-block' /></Link></button>
       
      </div>
