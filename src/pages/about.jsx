@@ -22,8 +22,9 @@ const About = () => {
           <img src={coder}  className=' rounded-full  shadow-lg w-70 h-70 md:w-130 md:h-130' />
           </div>
       </div>
-       <div className="card-col"id="Skills">
-        <div><h2>🏆Technical Skills & Expertise</h2>
+       <div className="flex  flex-col m-4 shadow-md space-y-3 "id="Skills">
+        <div>
+          <h2>🏆Technical Skills & Expertise</h2>
           <p>I am proficient in designing and developing scalable, user-friendly web applications with a strong focus on frontend development. My core technical skills include:</p>
           <ul className="list-disc ml-3 text-primary font-extrabold">
             <li>Programming Languages: JavaScript, C, C++</li>
@@ -32,7 +33,7 @@ const About = () => {
             <li>UI/UX Design: Building clean, responsive interfaces with attention to accessibility and user experience</li>
           </ul>
           <p>I take pride in writing maintainable, modular code and continuously improving performance and scalability. I enjoy turning complex problems into intuitive and elegant solutions.</p>
-          <div className='flex flex-col md:flex-row space-y-4  md:space-x-6 ' >
+          <div className='flex flex-row  space-x-3  md:space-x-6 ' >
             <h2>Tech Stacks:</h2>
             <img src={js} alt="js-icon" className='img-others ' />
             <img src={reactLogo} alt="react-icon" className='img-others' />
