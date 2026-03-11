@@ -43,7 +43,7 @@ const About = () => {
           </div>
         
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col mb-2'>
           <h2>Soft Skills</h2>
           <p>Alongside technical expertise, I bring strong problem-solving abilities, effective communication, and a disciplined approach to project management. I am committed to delivering high-quality work, meeting deadlines, and collaborating efficiently with teams.</p>
         </div>
