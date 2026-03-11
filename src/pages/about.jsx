@@ -23,31 +23,30 @@ const About = () => {
           </div>
       </div>
        <div className="card-col"id="Skills">
-       <div><h2>🏆Technical Skills & Expertise</h2>
-        <p>I am proficient in designing and developing scalable, user-friendly web applications with a strong focus on frontend development. My core technical skills include:</p>
-        <ul className="list-disc ml-3 text-primary font-extrabold">
-          <li>Programming Languages: JavaScript, C, C++</li>
-          <li>Frontend Development: React, Tailwind CSS, Bootstrap</li>
-          <li>Version Control & Tools: Git, GitHub, Vite</li>
-          <li>UI/UX Design: Building clean, responsive interfaces with attention to accessibility and user experience</li>
-        </ul>
-        <p>I take pride in writing maintainable, modular code and continuously improving performance and scalability. I enjoy turning complex problems into intuitive and elegant solutions.</p>
-       <div className='flex flex-col md:flex-row space-y-4  md:space-x-6  m-4' >
-        <h2>Tech Stacks:</h2>
-        <img src={js} alt="js-icon" className='img-others ' />
-        <img src={reactLogo} alt="react-icon" className='img-others' />
-        <img src={tailwind} alt="tailwind-icon" className='img-others '/>
-        <img src={mysql} alt="mysql-icon" className='img-others rounded-sm'/>
-        <img src={nodejs} alt="nodejs-icon" className='img-others '/>
+        <div><h2>🏆Technical Skills & Expertise</h2>
+          <p>I am proficient in designing and developing scalable, user-friendly web applications with a strong focus on frontend development. My core technical skills include:</p>
+          <ul className="list-disc ml-3 text-primary font-extrabold">
+            <li>Programming Languages: JavaScript, C, C++</li>
+            <li>Frontend Development: React, Tailwind CSS, Bootstrap</li>
+            <li>Version Control & Tools: Git, GitHub, Vite</li>
+            <li>UI/UX Design: Building clean, responsive interfaces with attention to accessibility and user experience</li>
+          </ul>
+          <p>I take pride in writing maintainable, modular code and continuously improving performance and scalability. I enjoy turning complex problems into intuitive and elegant solutions.</p>
+          <div className='flex flex-col md:flex-row space-y-4  md:space-x-6 ' >
+            <h2>Tech Stacks:</h2>
+            <img src={js} alt="js-icon" className='img-others ' />
+            <img src={reactLogo} alt="react-icon" className='img-others' />
+            <img src={tailwind} alt="tailwind-icon" className='img-others '/>
+            <img src={mysql} alt="mysql-icon" className='img-others rounded-sm'/>
+            <img src={nodejs} alt="nodejs-icon" className='img-others '/>
+            
+          </div>
         
-       </div>
-       
-       </div>
-       <div>
-        <h2>Soft Skills</h2>
-       <p>Alongside technical expertise, I bring strong problem-solving abilities, effective communication, and a disciplined approach to project management. I am committed to delivering high-quality work, meeting deadlines, and collaborating efficiently with teams.</p>
-      
-       </div>
+        </div>
+        <div className='flex flex-col'>
+          <h2>Soft Skills</h2>
+          <p>Alongside technical expertise, I bring strong problem-solving abilities, effective communication, and a disciplined approach to project management. I am committed to delivering high-quality work, meeting deadlines, and collaborating efficiently with teams.</p>
+        </div>
        </div>
     
       <div className="card-row"id="Mission">
