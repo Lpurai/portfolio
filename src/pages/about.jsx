@@ -3,7 +3,11 @@ import reactLogo from '../assets/react.svg';
 import tailwind from  '../assets/tailwind.png';
 import js from '../assets/js.png';
 import nodejs from '../assets/nodejs.jpeg';
-import mysql from '../assets/mysql.png'
+import mysql from '../assets/mysql.png';
+import Contact from './contact';
+import { Link,Route,Routes } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
+
 const About = () => {
   return (
   <>
@@ -59,10 +63,16 @@ const About = () => {
       <p>
       My vision is to grow into a highly skilled software engineer capable of building scalable systems and leading impactful technological solutions.
       I aspire to contribute to forward-thinking organizations, develop products that improve lives, and establish a long-term career defined by excellence, discipline, and continuous learning.</p>
+     <div className='mt-8'>
+       <button className="btn flex w-35 p-3"> <Link to="/contact">Contact Me  <ArrowRight className='inline-block' /></Link></button>
+      
      </div>
-   
+     </div>
+     
   </div>
-  
+  <Routes>
+        <Route path="/contact" element={<Contact Me />} />
+      </Routes>
   </>
     
   );

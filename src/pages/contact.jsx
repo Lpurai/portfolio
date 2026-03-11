@@ -1,7 +1,10 @@
 import linkedn from '../assets/linkedn.png'
 import twitter from '../assets/twitter.png'
 import github from '../assets/github.png'
-import instagram from '../assets/instagram.jpeg'
+import instagram from '../assets/instagram.jpeg';
+import { Link,Route,Routes } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
+import Projects from './projects';
 
 const Contact = () => {
   return (
@@ -19,6 +22,7 @@ const Contact = () => {
       <textarea placeholder="Message" className="w-full border border-blue-200 bg-blue-50 rounded-xl p-4 align-text-top focus:outline-none focus:ring-blue-300 focus:ring-2"></textarea>
       <input type="submit" className="btn"/>
     </div>
+     
     </div>
     <div className="flex flex-col space-y-3 absolute bottom-10 left-10 md:50">
       <div>
@@ -31,7 +35,14 @@ const Contact = () => {
           <div><a href="https://instagram.com/codemaestro_25" target='_blank'><img src={instagram} alt="instagram-icon" className='img-icon' /></a></div>
           <div><a href="https://x.com/lpurai6624" target='_blank'><img src={twitter} alt="twitter-icon" className='img-icon'/></a></div>
         </div>
+        <div className='m-10'>
+       <button className="btn flex w-30 p-3"> <Link to="/projects"> Projects <ArrowRight className='inline-block' /></Link></button>
+      
+     </div>
       </div>
+      <Routes>
+        <Route path="/projects" element={<Projects Me />} />
+      </Routes>
     </>
     
   );
